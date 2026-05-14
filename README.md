@@ -5,4 +5,6 @@ To run docker image:
 
 ```bash
 docker run -p 8083:8083 rswarnkar/flask-color-app:latest
+
+docker run -p 8083:8083 -e APP_COLOR=blue rswarnkar/flask-color-app:latest
 ```
